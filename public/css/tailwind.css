@@ -14,7 +14,7 @@
 @layer components{
     
     .wraper{
-        @apply w-full max-w-450 h-fit  mx-auto flex flex-wrap items-start justify-center py-5 px-1.5 overflow-x-clip select-none
+        @apply w-full max-w-450 h-fit  mx-auto flex flex-wrap items-start justify-center py-5 px-1.5 select-none
     }
         /* mobile header classes */
 
@@ -511,9 +511,9 @@
     /* end contact us classes */
 
     /* baner classes */
-    .baner_wraper{
-        @apply w-full h-[100px] xl:h-[200px] flex flex-wrap justify-center items-center xl:mt-[100px] mt-[60px]
-    }
+   .baner_wraper {
+  @apply w-full h-[100px] xl:h-[200px] flex flex-wrap justify-center items-center xl:mt-[100px] mt-[60px] relative overflow-hidden;
+}
     .baner{
         @apply w-full xl:h-[66px] h-[30px] bg-linear-to-tl from-[#beadaf] to-[#76676a] absolute z-10 flex justify-center items-center
     }
